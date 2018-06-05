@@ -8,6 +8,8 @@ def index():
     return render_template('index.html')
 # def hello():
 #     return "Hello World! The server is AAAAlllliiiiivvveeeee"
+
+
 Bootstrap(app)
 
 
