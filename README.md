@@ -19,3 +19,11 @@ Please deploy what you have done and email us back with your github link, and de
 Make sure to install -
 
 pip install tweepy
+
+Using Atom -
+
+https://atom.io/packages/ide-python
+
+run your code in the editor
+
+https://atom.io/packages/script
