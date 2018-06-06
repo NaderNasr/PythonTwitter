@@ -4,14 +4,59 @@
     <meta charset="UTF-8">
     <title>Flask React</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <!-- styles -->
   </head>
   <body>
-    <div class="container">
-      <h1>Flask React</h1>
-      <br>
-      <div id="content"></div>
-    </div>
-    <!-- scripts -->
+    <!-- Square card -->
+<style>
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background: url('https://3za9tm178tfxv1s642nil9m1-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Depositphotos_19913077_original-1534x862.jpg') bottom right 15% no-repeat #46B6AC;
+  margin: auto;
+}
+</style>
+
+<!-- Wide card with share menu button -->
+<style>
+.demo-card-wide.mdl-card {
+  width: 512px;
+  margin: auto;
+  
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('https://3za9tm178tfxv1s642nil9m1-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Depositphotos_19913077_original-1534x862.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+</style>
+
+<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Real time Augmented Reality Tweets</h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    Generate Tweets
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      View Tweets
+    </a>
+  </div>
+  <div class="mdl-card__menu">
+    <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+      <i class="material-icons">share</i>
+    </button>
+  </div>
+</div>
   </body>
 </html>
